@@ -19,4 +19,4 @@ static = []
 libc = "0.2"
 
 [build-dependencies]
-gcc = { version = "0.3", features = ["parallel"] }
+gcc = { git = "https://github.com/alexcrichton/gcc-rs", rev = "df519f60119570c9a9ceb17bbad4af819353ee9b", features = ["parallel"] }
